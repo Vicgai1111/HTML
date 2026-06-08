@@ -1,0 +1,14 @@
+function updateTshirt(){
+
+    let text =
+    document.getElementById("textInput").value;
+
+    let color =
+    document.getElementById("colorInput").value;
+
+    document.getElementById("shirtText").innerText =
+    text;
+
+    document.getElementById("tshirt").style.backgroundColor =
+    color;
+}
